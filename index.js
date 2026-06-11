@@ -5,9 +5,6 @@ const dotenv = require("dotenv").config();
 const connectionString = process.env.CONNECT_STRING;
 const {add, subtract} = require("./helpers/math"); 
 console.log(subtract(90, 12));
-const {result) = require("./helpers/loggers/result")
-console.log(result())
-
 app.get("/", (req, res) => {
 	res.send("");                                                   
 });
